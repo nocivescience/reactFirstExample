@@ -1,0 +1,27 @@
+body{
+    position: relative;
+    background: rgba(255, 0, 0, 0.285);
+    /* z-index: 1; */
+}
+.particles{
+    height:100vh;
+    width: 100vw;
+    opacity: .4;
+    position: fixed;
+    z-index: -1;
+}
+#root{
+    position: relative;
+    z-index: 2;
+}
+.fondo{
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+}
+@media only screen and (max-width:900px){
+    .fondo{
+        height: 100vh;
+        width: auto;
+    }
+}
