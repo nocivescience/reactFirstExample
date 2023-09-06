@@ -1,7 +1,38 @@
 body{
     position: relative;
-    background: rgba(255, 0, 0, 0.285);
-    /* z-index: 1; */
+    animation: fondo 60s infinite;
+}
+@keyframes fondo{
+    0%, 100%{
+        background-color: rgb(211, 211, 255);
+    }
+    10%{
+        background-color: rgb(255, 207, 207);
+    }
+    20%{
+        background-color: rgb(255, 255, 207);
+    }
+    30%{
+        background-color: rgb(207, 255, 207);
+    }
+    40%{
+        background-color: rgb(207, 255, 255);
+    }
+    50%{
+        background-color: rgb(207, 207, 255);
+    }
+    60%{
+        background-color: rgb(255, 207, 255);
+    }
+    70%{
+        background-color: rgb(255, 255, 255);
+    }
+    80%{
+        background-color: rgb(255, 255, 255);
+    }
+    90%{
+        background-color: rgb(255, 255, 255);
+    }
 }
 .particles{
     height:100vh;
