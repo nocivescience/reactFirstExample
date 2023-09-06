@@ -4,31 +4,31 @@ body{
 }
 @keyframes fondo{
     0%, 100%{
-        background-color: rgb(211, 211, 255);
+        background-color: rgb(225, 225, 255);
     }
     10%{
-        background-color: rgb(255, 207, 207);
+        background-color: rgb(255, 224, 224);
     }
     20%{
-        background-color: rgb(255, 255, 207);
+        background-color: rgb(255, 255, 225);
     }
     30%{
-        background-color: rgb(207, 255, 207);
+        background-color: rgb(227, 255, 227);
     }
     40%{
-        background-color: rgb(207, 255, 255);
+        background-color: rgb(225, 255, 255);
     }
     50%{
-        background-color: rgb(207, 207, 255);
+        background-color: rgb(228, 228, 253);
     }
     60%{
-        background-color: rgb(255, 207, 255);
+        background-color: rgb(255, 230, 255);
     }
     70%{
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(255, 237, 237);
     }
     80%{
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(255, 231, 231);
     }
     90%{
         background-color: rgb(255, 255, 255);
