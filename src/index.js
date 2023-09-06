@@ -1,0 +1,11 @@
+const express = require('express');
+const app = express();
+const port = 3000;
+const cors = require('cors');
+const morgan = require('morgan');
+app.use(cors());
+app.use(morgan('dev'));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(require('./routers/router.js'));
+app.listen(port, () => console.log(`Example app listening on port ${port}!`));
